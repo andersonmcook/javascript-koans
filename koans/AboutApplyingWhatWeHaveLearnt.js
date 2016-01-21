@@ -63,7 +63,6 @@ describe("About Applying What We Have Learnt", function() {
 
     /* try chaining range() and reduce() */
     var sum = _.range(1, 1000).filter(x => (x % 3 === 0 || x % 5 === 0)).reduce((all, item) => all + item);
-    console.log("sum", sum);
 
     expect(sum).toBe(233168);
   });
